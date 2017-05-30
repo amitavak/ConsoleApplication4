@@ -11,6 +11,13 @@ namespace ConsoleApplication4
         static void Main(string[] args)
         {
             Console.WriteLine("Hello GIT!");
+
+            var person = new Person()
+            {
+                FirstName = "Amitava",
+                LastName = "Karan"
+            };
+
             Console.ReadKey(true);
         }
     }
