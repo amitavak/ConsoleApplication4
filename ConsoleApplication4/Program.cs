@@ -22,5 +22,7 @@ namespace ConsoleApplication4
         public string LastName { get; set; }
 
         public DateTime DateOfBirth { get; set; }
+
+        public string Country { get; set; }
     }
 }
