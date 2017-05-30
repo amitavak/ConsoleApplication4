@@ -37,6 +37,8 @@ namespace ConsoleApplication4
         public DateTime DateOfBirth { get; set; }
 
         public string Country { get; set; }
+
+        public IEnumerable<string> LanguageKnown { get; set; }
     }
 
     class Company
