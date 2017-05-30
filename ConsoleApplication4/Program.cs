@@ -18,6 +18,12 @@ namespace ConsoleApplication4
                 LastName = "Karan"
             };
 
+            var company = new Company
+            {
+                CompanyId = 1,
+                CompanyName = "Test Company"
+            };
+
             Console.ReadKey(true);
         }
     }
