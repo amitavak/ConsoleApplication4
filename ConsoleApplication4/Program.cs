@@ -25,4 +25,11 @@ namespace ConsoleApplication4
 
         public string Country { get; set; }
     }
+
+    class Company
+    {
+        public int CompanyId { get; set; }
+
+        public string CompanyName { get; set; }
+    }
 }
