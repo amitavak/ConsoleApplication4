@@ -59,5 +59,7 @@ namespace ConsoleApplication4
         public string DepartmentName { get; set; }
 
         public Company Company { get; set; }
+
+        public int EmployeeCount { get; set; }
     }
 }
