@@ -39,6 +39,8 @@ namespace ConsoleApplication4
         public string Country { get; set; }
 
         public IEnumerable<string> LanguageKnown { get; set; }
+        
+        public string PinCode { get; set; }
     }
 
     class Company
