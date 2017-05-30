@@ -14,4 +14,11 @@ namespace ConsoleApplication4
             Console.ReadKey(true);
         }
     }
+
+    class Person
+    {
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+    }
 }
