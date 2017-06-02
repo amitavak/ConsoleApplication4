@@ -10,7 +10,10 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello GIT!");
+            //Console.WriteLine("Hello GIT!");
+
+            var date = DateTime.UtcNow.ToString("yyyyMMddhhmmss");
+            Console.WriteLine(date);
 
             var person = new Person()
             {
